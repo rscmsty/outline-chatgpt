@@ -5,7 +5,8 @@
   "description": "Extracts the Q&A block from ChatGPT.",
   "permissions": [
     "activeTab",
-    "scripting"
+    "scripting",
+    "tabs"
   ],
   "action": {
     "default_popup": "popup.html",
@@ -17,5 +18,11 @@
   },
   "host_permissions": [
     "https://*.chatgpt.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*.chatgpt.com/*"],
+      "js": ["contentScript.js"]
+    }
   ]
 }
