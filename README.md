@@ -4,8 +4,8 @@ ChatGPT Outliner is a browser extension designed to extract Q&A content from Cha
 
 ## Features
 - Automatically extracts Q&A content from ChatGPT pages.
-- Highlights user and ChatGPT responses.
-- Supports segmented content display.
+- Highlights user responses.
+- Supports reference content display.
 
 ## Screenshot
 ![Screenshot of ChatGPT Outliner](Screenshot.png)
